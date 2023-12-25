@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Care Hospital</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #F0ECE5;
+            padding: 0;
+            
+        }
+        form {
+            max-width: 400px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        header {
+            background-color: #86b6bd;
+            color: #242a2e;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 0.5em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 1em;
+            font-size: 20px;
+        }
+
+        section {
+            padding: 1em;
+            font-family:initial;
+            background-color: #F0ECE5;
+            
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        h1{
+            font-size: 80px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-family: initial;">Care Hospital</h1>
+    </header>
+
+    <nav>
+        <a href="#" draggable="true">Home</a>
+        <a href="#" draggable="true">Services</a>
+        <a href="#" draggable="true">Doctors</a>
+        <a href="#" draggable="true">Medicines</a>
+        <a href="#" draggable="true">Appointment</a>
+        <a href="#" draggable="true">Contact us</a>
+    </nav>
+
+    <section>
+        <div style="text-align: center;">
+            <h2 style="font-size: 40px;">Welcome to Care Hospital</h2>
+            <h2 style="font-size: 30px;">Patient Details</h2>
+
+
+        </div>
+    </section>
+
+    <footer>
+        We are here to hear and heal your health problems.
+    </footer>
+    
+    <form>
+        <label for="patientName">Patient Name:</label>
+        <input type="text" id="patientName" name="patientName" required>
+
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" required>
+
+        <label for="place">Place:</label>
+        <input type="text" id="place" name="place" required>
+
+        <label for="opNumber">OP number:</label>
+        <input type="text" id="opNumber" name="opNumber" required>
+
+        <label for="Aadhar_number">Aadhar Num :</label>
+        <input type="numbers" id="Aadhar_number" name="Aadhar_number" required>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
